@@ -116,15 +116,13 @@ Dla pola "Wysokoœæ pokrywy œnie¿nej" (PKSN) stosuje siê wartoœci kodowane:
 999 - niemo¿liwa do pomiaru
 
 Dla pola "Rodzaj opadu za 6 godzin" stosuje siê wartoœci kodowane
-5     -    rosa, szron, szadŸ, mg³a
-6     -    deszcz, m¿awka
-7     -    œnieg z deszczem, œnieg, py³ diamentowy, 
-  krupy œnie¿ne, œnieg ziarnisty
-8     -    grad, krupy lodowe, ziarna lodowe
-9     -    œnieg z deszczem, œnieg, ziarna lodowe,
-  grad, œnieg ziarnisty, krupy œnie¿ne 
+5 - rosa, szron, szadŸ, mg³a
+6 - deszcz, m¿awka
+7 - œnieg z deszczem, œnieg, py³ diamentowy, krupy œnie¿ne, œnieg ziarnisty
+8 - grad, krupy lodowe, ziarna lodowe
+9 - œnieg z deszczem, œnieg, ziarna lodowe, grad, œnieg ziarnisty, krupy œnie¿ne
 
-Dla pola "Us³onecznienie" (USLN) do marca 2015 pomiar jest zapisany na koniec godziny czasu miejsowego s³onecznego (zapis na godzinê 12:00 to okres 11-12).
-Po tej dacie us³onecznienie godzinowe zapisywane jest wed³ug miejscowego czasu s³onecznego na pocz¹tek godziny (np zapis na godzinê 12:00 to okres 12-13).
+Dla pola "Us³onecznienie" (USLN) do marca 2015 pomiar jest zapisany na koniec godziny czasu miejscowego s³onecznego (zapis na godzinê 12:00 to okres 11-12).
+Po tej dacie us³onecznienie godzinowe zapisywane jest wed³ug miejscowego czasu s³onecznego na pocz¹tek godziny (np. zapis na godzinê 12:00 to okres 12-13).
 
 Dla pola stan gruntu koduje siê klucze od 0-9 dla gruntu bez lodu "E" i klucze 10-19 dla gruntu z lodem "E'" (jedynka z przodu oznacza grunt z lodem E' druga liczba to numer klucza))
