@@ -1,0 +1,159 @@
+--- POLISH NOTES ---
+Wysokość podstawy chmur CL CM szyfrowana [kod]  - OK
+Status pomiaru HPOD                             - do wyrzucenia (dane są ok)
+
+Wysokość podstawy niższej  [m]                  - OK
+Status pomiaru HPON                             - do wyrzucenia (dane są ok)  Są STATUSY 8 czyli brak pomiaru uzupełnione 0 DO ZASTANOWIENIA CO Z TYM ZROBIĆ
+
+Wysokość podstawy wyższej [m]                   - OK
+Status pomiaru HPOW                             - do wyrzucenia (dane są ok)  Są STATUSY 8 czyli brak pomiaru uzupełnione 0 DO ZASTANOWIENIA CO Z TYM ZROBIĆ
+
+Wysokość podstawy tekstowy [opis]               - ! tekstowy opis w ułampu poprzednich parametrów (można wyrzucić, choć do rozważenia, czy nie stosowac wysokości chmur jako jeden parametr)
+
+Pomiar przyrzadem 1 (niższa) [P]                - ! (wartości albo P, albo BLANK - nie wiem co z tym zrobić więc na razie wyrzucę)
+
+Pomiar przyrzadem 2 (wyższa) [P]                - ! (wartości albo P, albo BLANK - nie wiem co z tym zrobić więc na razie wyrzucę)
+
+Widzialność  [kod]                              - OK
+Status pomiaru WID                              - do wyrzucenia (dane są OK)
+
+Widzialność operatora [m]                       - OK
+Status pomiaru WIDO                             - do wyrzucenia (dane są OK)
+
+Widzialność automat [m]                         - do wyrzucenia (same 0, coś jest zepsuje z tym pomiarem)
+Status pomiaru WIDA                             - do wyrzucenia (dane nieprzydatne)
+
+Zachmurzenie ogólne [oktanty]                   - OK
+Status pomiaru NOG                              - do wyrzucenia (dane są OK)
+
+Kierunek wiatru  [°]                            - OK
+Status pomiaru KRWR                             - do wyrzucenia (dane są OK)
+
+Prędkość wiatru  [m/s]                          - OK
+Status pomiaru FWR                              - do wyrzucenia (dane są OK)
+
+Poryw wiatru  [m/s]                             - OK
+Status pomiaru PORW                             - do wyrzucenia (dane są OK)
+
+Temperatura powietrza [°C]/1                    - OK
+Status pomiaru TEMP                             - do wyrzucenia (dane są OK)
+
+Temperatura termometru zwilżonego [°C]          - do wyrzucenia (same 8 - BRAKI POMIAROW)
+Status pomiaru TTZW                             - do wyrzucenia (dane nieprzydatne)
+
+Wskaźnik wentylacji [W/N]                       - do wyrzucenia (same wartości "U")
+
+Wskaźnik lodu       [L/W]                       - do wyrzucenia (same BLANKI)
+
+Ciśnienie pary wodnej [hPa]                     - OK
+Status pomiaru CPW                              - do wyrzucenia (dane są OK)
+
+Wilgotność względna [%]                         - OK
+Status pomiaru WLGW                             - do wyrzucenia (dane są OK)
+
+Temperatura punktu rosy [°C]                    - OK
+Status pomiaru TPTR                             - do wyrzucenia (dane są OK)
+
+Ciśnienie na pozimie stacji [hPa]               - OK
+Status pomiaru PPPS                             - do wyrzucenia (dane są OK)
+
+Ciśnienie na pozimie morza [hPa]                - OK
+Status pomiaru PPPM                             - do wyrzucenia (dane są OK)
+
+Charakterystyka tendencji [kod]                 - OK
+
+Wartość tendencji [wartość]                     - OK
+Status pomiaru APP                              - do wyrzucenia (dane są OK)
+
+Opad za 6 godzin [mm]                           - OK ale uwaga bo są tutaj 8 i 9
+Status pomiaru WO6G                             - UWAGA SĄ BRAKI POMIARÓW UZUPEŁNIONE "8"
+
+Rodzaj opadu za 6 godzin [kod]                  - OK ale uwaga bo są tutaj 8 i 9
+Status pomiaru ROPT                             - UWAGA SĄ BRAKI POMIARÓW UZUPEŁNIONE "8"
+
+Pogoda bieżąca [kod]                            - OK
+
+Pogoda ubiegła [kod]                            - OK
+
+Zachmurzenie niskie [oktanty]                   - OK
+Status pomiaru CLCM                             - do wyrzucenia (dane są OK)
+
+Chmury CL [kod]                                 - ! OK, ale trzeba zastąpić dane "/" na coś innego
+Status pomiaru CHCL                             - do wyrzucenia (dane są PRAWIE OK)
+
+Chmury CL tekstem                               - do wyrzucenia (dane tekstowe)
+
+Chmury CM [kod]                                 - ! OK, ale trzeba zastąpić dane "/" na coś innego
+Status pomiaru CHCM                             - do wyrzucenia (dane są PRAWIE OK)
+
+Chmury CM tekstem                               - do wyrzucenia (dane tekstowe)
+
+Chmury CH [kod]                                 - ! OK, ale trzeba zastąpić dane "/" na coś innego
+Status pomiaru CHCH                             - do wyrzucenia (dane są PRAWIE OK)
+
+Chmury CH tekstem                               - do wyrzucenia (dane tekstowe)
+
+Stan gruntu [kod]                               - OK
+Status pomiaru SGRN                             - do wyrzucenia (dane są OK)
+
+Niedosyt wilgotności [hPa]                      - OK
+Status pomiaru DEFI                             - do wyrzucenia (dane są OK)
+
+Usłonecznienie                                  - do wyrzucenia (SAME "8")
+Status pomiaru USLN                             - do wyrzucenia (SAME 8)
+
+Wystąpienie rosy [0/1]                          - OK
+Status pomiaru ROSW                             - do wyrzucenia (dane są OK)
+
+Poryw maksymalny za okres WW [m/s]              - OK
+Status pomiaru PORK                             - do wyrzucenia (dane są OK)
+
+Godzina wystąpienia porywu                      - do wyrzucenia (nieistotne dane)
+
+Minuta wystąpienia porywu                       - do wyrzucenia (nieistotne dane)
+
+Temperatura gruntu -5 [°C]                      - do wyrzucenia (SAME "8")
+Status pomiaru TG05                             - do wyrzucenia (SAME "8")
+
+Temperatura gruntu -10 [°C]                     - do wyrzucenia (SAME "8")
+Status pomiaru TG10                             - do wyrzucenia (SAME "8")
+
+Temperatura gruntu -20 [°C]                     - do wyrzucenia (SAME "8")
+Status pomiaru TG20                             - do wyrzucenia (SAME "8")
+
+Temperatura gruntu -50 [°C]                     - do wyrzucenia (SAME "8")
+Status pomiaru TG50                             - do wyrzucenia (SAME "8")
+
+Temperatura gruntu -100 [°C]                    - do wyrzucenia (SAME "8")
+Status pomiaru TG100                            - do wyrzucenia (SAME "8")
+
+Temperatura minimalna za 12 godzin  [°C]        - OK (trzeba usunąć BRAKI POMIARÓW)
+Status pomiaru TMIN                             - do wyrzucenia po obrobieniu danych
+
+Temperatura maksymalna za 12 godzin [°C]        - OK (trzeba usunąć BRAKI POMIARÓW)
+Status pomiaru TMAX                             - do wyrzucenia po obrobieniu danych
+
+Temperatura minimalna przy gruncie za 12 godzin [°C]  - OK (trzeba usunąć BRAKI POMIARÓW)
+Status pomiaru TGMI                                   - do wyrzucenia po obrobieniu danych
+
+Równoważnik wodny śniegu [mm/cm]                - OK (trzeba usunąć BRAKI POMIARÓW)
+Status pomiaru RWSN                             - do wyrzucenia po obrobieniu danych
+
+Wysokość pokrywy śnieżnej [cm]                  - OK (trzeba usunąć BRAKI POMIARÓW + są jakeiś smieci czyli pomiary '999' czy '998' co jest niemożliwe)
+Status pomiaru PKSN                             - do wyrzucenia po obrobieniu danych
+
+Wysokość świeżo spadłego śniegu [cm]            - OK (trzeba usunąć BRAKI POMIARÓW + są jakeiś smieci czyli pomiary '999' czy '998' co jest niemożliwe)
+Status pomiaru HSS                              - do wyrzucenia po obrobieniu danych
+
+Wysokość śniegu na poletku [cm]                 - OK (trzeba usunąć BRAKI POMIARÓW + są jakeiś smieci czyli pomiary '999' czy '998' co jest niemożliwe)
+Status pomiaru GRSN                             - do wyrzucenia po obrobieniu danych
+
+Gatunek śniegu  [kod]                           - OK (trzeba usunąć jakieś kropki wartość ".")
+
+Ukształtowanie pokrywy [kod]                    - OK (trzeba usunąć jakieś kropki wartość ".")
+
+Wysokość próbki [cm]                            - OK (trzeba usunąć BRAKI POMIARÓW)
+Status pomiaru HPRO                             - do wyrzucenia po obrobieniu danych
+
+Ciężar próbki [g]                               - OK (trzeba usunąć BRAKI POMIARÓW)
+Status pomiaru CIPR                             - do wyrzucenia po obrobieniu danych
