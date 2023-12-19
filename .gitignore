@@ -1,2 +1,4 @@
 .idea
 *.zip
+/data/original_data/hourly_general
+/data/original_data/hourly_rain
